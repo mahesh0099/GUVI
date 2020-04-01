@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var type=function(a){
+	console.log(typeof a )
+	console.log(a.Dimensions.trackwidth)
+};
+
+var technicalSpecifications={
+Dimensions:{overalllength:3500, overallwidth:1600, overallheight:1490, wheelbase:2360, trackwidth:{front:1405, rear:1400}, minimumturningradious:4.5, minimumgroundclearance:170},
+capacities:{seatingcapacity:5, fueltankcapacity:35},
+Engine:{type:"KB-series", numberofcylinders:3, numberofvalves:12, capacity:998, borexstroke:"73.0*79.5", compressionratio:"10:1", maximumpower:"67/6200", maximumtorque:"90/3500", fueldistribution:"multipoint injection"},
+Transmission:{type:"5-speed MT"},
+chasis:{steering:"Rack & Pinion, Power Assisted", Brakes:[{Front:"Ventilated Disks", Rear:"Drums"}], Suspension:[{Front:"MacPherson strut & coil spring", Rear:"isolated trailing link & coil spring"}], shockabsobers:"Gas Filled", Tyre:"155/80 R 13"},
+Weights:{kerbweight:"860-880", Grossvehicleweight:1320}
+}
+type(technicalSpecifications);
+
+
+
+</script>
+</body>
+</html>
+
+
+	
