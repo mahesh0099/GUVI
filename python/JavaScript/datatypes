@@ -1,0 +1,62 @@
+String:::::::::::::
+var type=function(a){
+	console.log(typeof a )
+};
+type("this is mahesh");
+
+
+
+Number:::::::::::::::
+var type=function(a){
+	console.log(typeof a )
+};
+type(45);
+
+
+
+Number
+var type=function(a){
+	console.log(typeof a )
+};
+type(45.63);
+
+
+Object::::::::::::::::::::
+var type=function(a){
+	console.log(typeof a )
+};
+type({
+name: "mahesh",
+age:27,
+mailid:"mahe.kommavarapu@gmail.com"
+});
+
+
+boolean:::::::::::::::::
+var type=function(a){
+	console.log(typeof a )
+};
+type(true);
+
+
+
+
+Object:::::::::::::::
+var type=function(a){
+	console.log(typeof a )
+};
+type(null);
+
+
+
+
+
+undefined:::::::::::::::
+var type=function(a){
+	console.log(typeof a )
+};
+type(undefined);
+
+
+
+
