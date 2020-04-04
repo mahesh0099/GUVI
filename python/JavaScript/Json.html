@@ -33,21 +33,25 @@ var library=[
 			}
 	}
 ]
-//1a
+//1a:::::::::::::::::::::::::::
+
 library[0].readers[1].count=1000
 console.log(library[0].readers[1].count)
 
-//1b
+//1b:::::::::::::::::::::::::::
+	
 library[0].authorDetails["email"]="email1@gmail.com"
 library[1].authorDetails["email"]="email2@gmail.com"
 console.log(library[0].authorDetails["email"])
 
-//1c
+//1c:::::::::::::::::::::::::::
+	
 library[1].readers["name"]="Person3"
 library[1].readers["count"]="900"
 console.log(library[1].readers.count)
 
-//1d
+//1d:::::::::::::::::::::::::::
+	
 var obj={title : "SQL",
 		 price : 800,
 		 readers : "",
@@ -58,11 +62,13 @@ library.push(obj);
 console.log(library[2].title)
 console.log(library[1].readers.count)
 
-//1e
+//1e::::::::::::::::::::::::::::::::
+	
 console.log(typeof library[2].authorDetails.age)
 
 
-//2
+//2::::::::::::::::::::::::::::::::
+	
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 	
@@ -70,7 +76,8 @@ function getRandomArbitrary(min, max) {
 console.log(getRandomArbitrary(0,10))
 
 
-//3
+//3:::::::::::::::::::::::::::::
+	
 function ADDING(a,b){
 	add=a + b
 	return add
@@ -79,7 +86,8 @@ var addition=ADDING(10,20);
 console.log(addition)
 
 
-//4
+//4:::::::::::::::::::::::::::
+	
 function ADD(a,b){
 sum=a+b
 console.log(sum)
@@ -105,7 +113,8 @@ console.log(div)
 DIV(5,10)
 
 
-//5a
+//5a::::::::::::::::::::::::
+	
 function ADDITION(a,b){
 sum=a+b
 return sum;
@@ -114,7 +123,8 @@ var add=ADDITION(50,60);
 console.log(add)
 
 
-//5b
+//5b::::::::::::::::::::::::::
+	
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
