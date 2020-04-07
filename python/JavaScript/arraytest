@@ -1,0 +1,43 @@
+const readline=require('readline');
+const inp=readline.createInterface(
+{
+input:process.stdin
+});
+const userInput=[];
+inp.on("line",(data)=>{
+userInput.push(data);
+});
+inp.on("close",()=>{
+console.log(mathForm(userInput));
+});
+function mathForm(data)
+{
+  var a=data;
+  var searchEle=a[0];
+  var array=a[1].split(" ");
+  for(var i=0; i<array.length;i++)
+  {
+    array[i]=parseInt(array[i]);
+  }
+  for (var j=0;j<array.length;j++)
+  {
+    if(searchEle==array[j])
+    {
+      var count=count+1;
+    }
+    else{
+     count=0;
+    }
+    
+  }
+  
+  if(count>0)
+  {
+    console.log("search element found");
+  }
+  else{
+    console.log("search element not found");
+  }
+ // console.log(array);
+  return 0;
+}
