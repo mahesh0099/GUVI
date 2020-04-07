@@ -24,6 +24,7 @@ function mathForm(data)
     if(searchEle==array[j])
     {
       var count=count+1;
+      continue;
     }
     else{
      count=0;
@@ -40,4 +41,45 @@ function mathForm(data)
   }
  // console.log(array);
   return 0;
+}
+
+
+
+
+
+
+//3rd non repeated number in the array
+
+
+import java.util.Scanner;
+public class Reverse {
+    public static void main(String[] args) {
+    	int[] array = {10, 20, 30, 40, 50, 60, 70, 20, 10};
+    	
+    	int count1=0;
+    	int temp1=0;
+    	for(int i=0;i<=array.length-1;i++)
+    	{
+    		int count=0;
+    		
+    		int temp=array[i];
+    		for(int j=0;j<=array.length-1;j++)
+    		{
+    			if(temp==array[j])
+    			{
+    				count=count+1;
+    			}
+    			
+    		}
+    		if(count==1)
+    		{
+    			count1=count1+1;
+    			if(count1==3) {
+    			temp1=temp;
+    			break;
+    			}
+    		}
+    	}
+    	System.out.println(temp1);
+}
 }
